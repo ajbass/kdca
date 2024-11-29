@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/ajbass/kdca/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/ajbass/kdca/actions/workflows/R-CMD-check.yml)
+[![R-CMD-check](https://github.com/ajbass/kdca/actions/workflows/R-CMD-CHECK.yml/badge.svg)](https://github.com/ajbass/kdca/actions/workflows/R-CMD-CHECK.yml)
 
 <!---[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/kdca)](https://cran.r-project.org/package=kdca)--->
 <!-- badges: end -->
