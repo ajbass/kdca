@@ -1,0 +1,26 @@
+Package: kdca
+Type: Package
+Title: Kernel-based Differential Co-expression Analysis
+Version: 0.0.0.99
+Authors@R: c(person("Andrew", "Bass", email ="ajbass@emory.edu", role = c("aut", "cre")),
+             person("Michael", "Epstein", email ="mpepste@emory.edu", role = c("aut")))
+Maintainer: Andrew Bass <ajbass@emory.edu>
+Description: Identifying differential co-expression in gene expression studies with Kernel-based Differential Co-expression Analysis (KDCA). KDCA is a flexible kernel-based approach that leverages multiple genes in a pathway to discover differential co-expression in a microarray or RNA-seq study. KDCA can test one or more risk factors while accounting for covariates, batch effects, and variance-specific effects (i.e., common sources of bias in differential co-exprerssion analysis).
+URL: https://github.com/ajbass/kdca
+License: LGPL
+Encoding: UTF-8
+VignetteBuilder: knitr
+LazyData: true
+RoxygenNote: 7.3.1
+LinkingTo: Rcpp, RcppArmadillo, RcppEigen
+Imports: Rcpp (>= 1.0.11),
+         dglm,
+         RSpectra,
+         kernlab,
+         RNOmni,
+         PearsonDS,
+         matrixStats
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
